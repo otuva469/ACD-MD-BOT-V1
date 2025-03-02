@@ -5,7 +5,7 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "past your session id",  //මෙතනට ඔයාගෙ සෙශන් කෝඩ් එක දාන්න
+SESSION_ID: process.env.SESSION_ID || "Manu-MD&9eFyxB5A#hhL6vs7z8I48uu8XCz0zuiO26P8TExk6nhwny6QriW8",  //මෙතනට ඔයාගෙ සෙශන් කෝඩ් එක දාන්න
 ALIVE_IMG: process.env.ALIVE_IMG || "https://i.ibb.co/Qp22bZ1/IMG-20241129-WA0428.jpg",
 ALIVE_MSG: process.env.ALIVE_IMG || "*HEY DEAR* ${pushname}\n *I Am AlIVE NOW....! 🖐🏻*",
 SUDO_NB: process.env.SUDO_NB || "94768844616",
